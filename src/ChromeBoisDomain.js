@@ -12,7 +12,7 @@ export default class ChromeBoisDomain extends Component {
      */
      let xAxis = event.clientX;
      let yAxis = event.clientY;
-     console.log()
+     console.log([xAxis, yAxis]);
   }
   
   /* TODO: Create an event handler which, when fired, invokes the provided
